@@ -1,16 +1,113 @@
-# React + Vite
+# Personal Blog Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive blog platform built using **React.js, JavaScript, HTML, and CSS** that allows users to read and explore blog posts through a modern and user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## React Compiler
+The Personal Blog Website is designed to demonstrate front-end development skills using **React components and modern UI design principles**. The application provides a clean layout where users can browse blog posts and view detailed articles.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project focuses on building responsive layouts, reusable components, and dynamic content rendering using React.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Responsive user interface for desktop and mobile devices
+- Blog listing page displaying multiple blog posts
+- Individual blog detail pages
+- Clean card-based UI layout
+- Component-based architecture using React
+- Simple and intuitive navigation
+
+---
+
+## Technologies Used
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+
+---
+
+## Project Structure
+
+```
+blog-website
+│
+├── public
+│
+├── src
+│   ├── components
+│   │   ├── Navbar
+│   │   ├── BlogCard
+│   │   └── Footer
+│   │
+│   ├── pages
+│   │   ├── Home
+│   │   ├── BlogDetails
+│   │   └── CreateBlog
+│   │
+│   ├── App.js
+│   └── index.js
+│
+└── package.json
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```
+git clone https://github.com/Anam2006-coder/blog-website.git
+```
+
+Navigate to the project folder
+
+```
+cd blog-website
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Start the development server
+
+```
+npm start
+```
+
+The application will run at
+
+```
+http://localhost:3000
+```
+
+---
+
+## Future Improvements
+
+- Add authentication for blog authors
+- Add backend database integration
+- Add comments section
+- Add blog categories and tags
+- Implement search functionality
+
+---
+
+## Author
+
+**Sania Begum**
+
+GitHub  
+https://github.com/Anam2006-coder
+
+LinkedIn  
+https://linkedin.com/in/sania-begum-379b313a8
